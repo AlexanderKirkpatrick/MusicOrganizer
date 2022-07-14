@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using ProjectTemplate.Models;
+using MusicOrganizer.Models;
 
-namespace ProjectTemplate.Controllers
+namespace MusicOrganizer.Controllers
 {
   public class ProjectController : Controller
   {
