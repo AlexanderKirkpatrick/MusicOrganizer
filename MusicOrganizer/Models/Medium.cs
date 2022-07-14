@@ -34,7 +34,7 @@ namespace MusicOrganizer.Models
 
     public void AddAlbum(Album album)
     {
-      Albums.Add(Album);
+      Albums.Add(album);
     }
 
   }

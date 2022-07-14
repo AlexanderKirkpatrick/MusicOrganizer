@@ -3,7 +3,7 @@ using MusicOrganizer.Models;
 
 namespace MusicOrganizer.Controllers
 {
-  public class ProjectController : Controller
+  public class AlbumsController : Controller
   {
     //code
   }
