@@ -1,11 +1,21 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace ProjectTemplate.Controllers
+namespace MusicOrganizer.Controllers
 {
     public class HomeController : Controller
     {
 
-      //code goes here
+      [HttpGet("/")]
+      public ActionResult Index()
+      {
+        return View();
+      }
 
+      [Route("/favorite_photos")]
+      public ActionResult FavoritePhotos()
+      {
+        return View();
+      }
+      
     }
 }

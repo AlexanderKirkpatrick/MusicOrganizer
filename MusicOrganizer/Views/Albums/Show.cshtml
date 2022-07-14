@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Music Organizer!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  </head>
+  <body>
+    <h1>Album Details: </h1>
+
+    <h2>@Model["album"].Description</h2>
+    <h3>Medium: @Model["medium"].Name</h3>
+
+    <a href='/mediums/@Model["medium"].Id/albums/new'>Add another album</a>
+    <a href='/mediums'>View all mediums</a>
+
+    <a href='/albums/new'>Add another album</a>
+    <a href='/albums'>View all albums</a>
+  </body>
+</html>
